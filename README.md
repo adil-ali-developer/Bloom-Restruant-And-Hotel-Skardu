@@ -1,4 +1,10 @@
 <div align="center">
+  <img
+    src="img/baltora.png"
+    alt="Baltora Hotel and Restaurant logo"
+    width="180"
+    height="180"
+  >
   <h1>Baltora Hotel and Restaurant</h1>
   <p><strong>A thoughtful, responsive restaurant website for gathering around the table.</strong></p>
   <p>
@@ -62,6 +68,7 @@ Then visit [http://localhost:8000](http://localhost:8000).
 ├── robots.txt
 ├── sitemap.xml
 └── img/
+    ├── baltora.png
     ├── Baltora Luxury Mountain Resort Emblem.png
     └── screencapture-bloom-restruant-and-hotel-vercel-app-2026-11-15-06_15_06.png
 ```
