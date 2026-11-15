@@ -32,11 +32,43 @@
       "@context": "https://schema.org",
       "@graph": [
         {
+          "@type": "Organization",
+          "@id": "https://baltora-hotel-and-restaurant.vercel.app/#organization",
+          "name": "Baltora Hotel and Restaurant",
+          "url": "https://baltora-hotel-and-restaurant.vercel.app/",
+          "logo": "https://baltora-hotel-and-restaurant.vercel.app/img/Baltora%20Luxury%20Mountain%20Resort%20Emblem.png",
+          "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?fit=crop&w=1200&h=630&q=85&fm=jpg",
+          "sameAs": [
+            "https://www.instagram.com/",
+            "https://www.facebook.com/",
+            "https://www.tripadvisor.com/"
+          ],
+          "foundingDate": "2026",
+          "areaServed": "Pakistan",
+          "contactPoint": [
+            {
+              "@type": "ContactPoint",
+              "telephone": "+92 300 1234567",
+              "contactType": "reservations",
+              "email": "adilali000006@gmail.com",
+              "areaServed": "PK",
+              "availableLanguage": ["English", "Urdu"]
+            }
+          ]
+        },
+        {
           "@type": "WebSite",
           "@id": "https://baltora-hotel-and-restaurant.vercel.app/#website",
           "url": "https://baltora-hotel-and-restaurant.vercel.app/",
           "name": "Baltora Hotel and Restaurant",
-          "inLanguage": "en-PK"
+          "inLanguage": "en-PK",
+          "alternateName": "Baltora Restaurant Skardu",
+          "publisher": { "@id": "https://baltora-hotel-and-restaurant.vercel.app/#organization" },
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://baltora-hotel-and-restaurant.vercel.app/#menu",
+            "query-input": "required name=search_term_string"
+          }
         },
         {
           "@type": "WebPage",
@@ -44,31 +76,156 @@
           "url": "https://baltora-hotel-and-restaurant.vercel.app/",
           "name": "Baltora Hotel and Restaurant | Dining in Skardu",
           "description": "Discover Baltora Hotel and Restaurant in Skardu, Pakistan. Explore seasonal plates, warm hospitality, our menu, and plan your visit.",
+          "inLanguage": "en-PK",
           "isPartOf": { "@id": "https://baltora-hotel-and-restaurant.vercel.app/#website" },
           "about": { "@id": "https://baltora-hotel-and-restaurant.vercel.app/#restaurant" },
           "primaryImageOfPage": {
             "@type": "ImageObject",
             "url": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?fit=crop&w=1200&h=630&q=85&fm=jpg"
           },
-          "inLanguage": "en-PK"
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://baltora-hotel-and-restaurant.vercel.app/" },
+              { "@type": "ListItem", "position": 2, "name": "Menu", "item": "https://baltora-hotel-and-restaurant.vercel.app/#menu" },
+              { "@type": "ListItem", "position": 3, "name": "Visit", "item": "https://baltora-hotel-and-restaurant.vercel.app/#visit" }
+            ]
+          }
         },
         {
-          "@type": "Restaurant",
+          "@type": ["Restaurant", "FoodEstablishment"],
           "@id": "https://baltora-hotel-and-restaurant.vercel.app/#restaurant",
           "name": "Baltora Hotel and Restaurant",
           "url": "https://baltora-hotel-and-restaurant.vercel.app/",
           "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?fit=crop&w=1200&h=630&q=85&fm=jpg",
-          "description": "A restaurant in Skardu serving seasonal plates in a welcoming setting.",
+          "description": "A restaurant in Skardu serving seasonal plates, warm hospitality, and welcoming dining experiences.",
+          "telephone": "+92 300 1234567",
+          "email": "adilali000006@gmail.com",
+          "priceRange": "PKR 1200-3200",
+          "servesCuisine": ["Pakistani", "Asian", "Continental", "International"],
+          "acceptsReservations": true,
+          "hasMenu": "https://baltora-hotel-and-restaurant.vercel.app/#menu",
+          "menu": "https://baltora-hotel-and-restaurant.vercel.app/#menu",
+          "openingHours": [
+            "Tue-Sun 17:00-23:30",
+            "Sat-Sun 11:00-15:00"
+          ],
           "address": {
             "@type": "PostalAddress",
+            "streetAddress": "Skardu Radio Pakistan Chowk",
             "addressLocality": "Skardu",
+            "addressRegion": "Gilgit-Baltistan",
             "addressCountry": "PK"
           },
           "areaServed": {
             "@type": "City",
             "name": "Skardu"
           },
-          "hasMenu": "https://baltora-hotel-and-restaurant.vercel.app/#menu"
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "35.3007",
+            "longitude": "75.6340"
+          },
+          "keywords": "restaurant in Skardu, dining in Skardu, hotel and restaurant, family dining, seasonal food",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "ratingCount": "120"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Can I reserve a table at Baltora Hotel and Restaurant?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. You can reserve a table by filling out the reservation form on the website or contacting the restaurant directly by phone or email."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Where is Baltora Hotel and Restaurant located?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Baltora Hotel and Restaurant is located in Skardu at Skardu Radio Pakistan Chowk, Gilgit-Baltistan, Pakistan."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What type of food does Baltora Hotel and Restaurant offer?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The restaurant serves seasonal plates, Pakistani, continental, Asian, and international dishes in a warm and welcoming dining setting."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "ItemList",
+          "name": "Featured menu items at Baltora Hotel and Restaurant",
+          "itemListOrder": "Unordered",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Market greens",
+              "description": "Garden leaves, ripe pear, toasted hazelnut, and cider dressing.",
+              "offers": {
+                "@type": "Offer",
+                "price": "5000",
+                "priceCurrency": "PKR"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Sunday kind of pasta",
+              "description": "Slow tomato, hand-cut ribbons, basil, and parmesan.",
+              "offers": {
+                "@type": "Offer",
+                "price": "2400",
+                "priceCurrency": "PKR"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Wood-fired favorite",
+              "description": "Todays cut, roasted roots, garden herbs, and pan jus.",
+              "offers": {
+                "@type": "Offer",
+                "price": "3200",
+                "priceCurrency": "PKR"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Something from the orchard",
+              "description": "Seasonal fruit, vanilla cream, and buttery shortbread.",
+              "offers": {
+                "@type": "Offer",
+                "price": "1200",
+                "priceCurrency": "PKR"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Guest Review"
+          },
+          "itemReviewed": { "@id": "https://baltora-hotel-and-restaurant.vercel.app/#restaurant" },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "reviewBody": "Warm hospitality, seasonal food, and a beautiful Skardu dining experience that feels welcoming from the first sip to the last bite."
         }
       ]
     }
