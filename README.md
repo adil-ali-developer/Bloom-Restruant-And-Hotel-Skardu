@@ -1,8 +1,8 @@
 <div align="center">
-  <h1>Bloom Restaurant &amp; Hotel Skardu</h1>
+  <h1>Baltora Hotel and Restaurant</h1>
   <p><strong>A thoughtful, responsive restaurant website for gathering around the table.</strong></p>
   <p>
-    <a href="https://bloom-restruant-and-hotel.vercel.app/">Visit the live site</a>
+    <a href="https://baltora-hotel-and-restaurant.vercel.app/">Visit the live site</a>
     &nbsp;·&nbsp;
     <a href="#getting-started">Run it locally</a>
     &nbsp;·&nbsp;
@@ -13,14 +13,14 @@
 <p align="center">
   <img
     src="img/screencapture-bloom-restruant-and-hotel-vercel-app-2026-11-15-06_15_06.png"
-    alt="Full-page screenshot of the Bloom Restaurant and Hotel Skardu website"
+    alt="Full-page screenshot of the Baltora Hotel and Restaurant website"
     width="100%"
   >
 </p>
 
 ## About
 
-Bloom's website is a single-page restaurant experience inspired by seasonal food, warm hospitality, and unhurried meals. Visitors can explore the restaurant story, browse a sample menu, find visit information, and prepare a table request.
+Baltora Hotel and Restaurant's website is a single-page restaurant experience inspired by seasonal food, warm hospitality, and unhurried meals. Visitors can explore the restaurant story, browse a sample menu, find visit information, and prepare a table request.
 
 The visual design pairs a warm paper palette with olive and rust accents, expressive serif headings, generous spacing, and food photography.
 
@@ -62,7 +62,7 @@ Then visit [http://localhost:8000](http://localhost:8000).
 ├── robots.txt
 ├── sitemap.xml
 └── img/
-    ├── Bloom Skardu Mountain Hotel Emblem.png
+    ├── Baltora Luxury Mountain Resort Emblem.png
     └── screencapture-bloom-restruant-and-hotel-vercel-app-2026-11-15-06_15_06.png
 ```
 
@@ -81,9 +81,9 @@ The reservation form opens the visitor's default email application with a prefil
 
 The page includes a title and description, a canonical URL, social preview metadata, and JSON-LD entities for the website, web page, and restaurant. The sitemap and crawler instructions are configured for the current Vercel address:
 
-`https://bloom-restruant-and-hotel.vercel.app/`
+`https://baltora-hotel-and-restaurant.vercel.app/`
 
-After deploying, submit `https://bloom-restruant-and-hotel.vercel.app/sitemap.xml` in Google Search Console. If the site moves to a custom domain, update the canonical and structured-data URLs in `index.html`, and the URLs in `robots.txt` and `sitemap.xml`.
+After deploying, submit `https://baltora-hotel-and-restaurant.vercel.app/sitemap.xml` in Google Search Console. If the site moves to a custom domain, update the canonical and structured-data URLs in `index.html`, and the URLs in `robots.txt` and `sitemap.xml`.
 
 ## Before going live
 

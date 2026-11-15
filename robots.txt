@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://bloom-restruant-and-hotel.vercel.app/sitemap.xml
+Sitemap: https://baltora-hotel-and-restaurant.vercel.app/sitemap.xml
