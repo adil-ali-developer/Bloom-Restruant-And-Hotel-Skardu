@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bloom-restruant-and-hotel.vercel.app/sitemap.xml
