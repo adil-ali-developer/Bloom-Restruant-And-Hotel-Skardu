@@ -18,7 +18,7 @@
 
 <p align="center">
   <img
-    src="img/screencapture-bloom-restruant-and-hotel-vercel-app-2026-11-15-06_15_06.png"
+    src="img/baltora.png"
     alt="Full-page screenshot of the Baltora Hotel and Restaurant website"
     width="100%"
   >
