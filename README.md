@@ -1,6 +1,6 @@
 <div align="center">
   <img
-    src="img/baltora.png"
+    src="img/Baltora Luxury Mountain Resort Emblem.png"
     alt="Baltora Hotel and Restaurant logo"
     width="180"
     height="180"
